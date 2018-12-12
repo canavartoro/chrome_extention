@@ -1,0 +1,25 @@
+{
+    "manifest_version":2,
+    "name":"Budget manager",
+    "version":"1.0",
+    "description":"Hüseyin deneme",
+    "icons":{
+        "128":"icon128.png",
+        "48":"icon48.png",
+        "16":"icon16.png"
+    },
+    "browser_action": {
+        "default_icon":"icon28.png",
+        "default_popup":"popup.html"
+    },
+    "web_accessible_resources": [ "icon48.png" ],
+    "options_page": "options.html",
+    "background": { "scripts": ["background.js"] },
+    "permissions":[
+        "storage",
+        "tabs",
+        "notifications",
+        "alarms",
+        "http://5.79.119.216/"
+    ]
+}
